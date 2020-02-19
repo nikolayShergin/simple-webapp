@@ -14,8 +14,8 @@ def hello():
 def answer():
     return 'Zaebisce!'
 
-@app.route1('/chtoa')
-def answer():
+@app.route('/chtoa')
+def answer1():
     return 'Eto po polski, blya!'
 
 if __name__ == "__main__":
