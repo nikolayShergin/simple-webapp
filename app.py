@@ -14,5 +14,9 @@ def hello():
 def answer():
     return 'Zaebisce!'
 
+@app.route('/chtoa')
+def answer():
+    return 'Eto po polski, blya!'
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
