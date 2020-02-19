@@ -14,7 +14,7 @@ def hello():
 def answer():
     return 'Zaebisce!'
 
-@app.route('/chtoa')
+@app.route1('/chtoa')
 def answer():
     return 'Eto po polski, blya!'
 
