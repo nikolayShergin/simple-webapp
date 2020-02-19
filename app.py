@@ -11,7 +11,7 @@ def hello():
     return 'I am good, how about you?'
 
 @app.route('/me too')
-def hello():
+def answer():
     return 'Zaebisce!'
 
 if __name__ == "__main__":
